@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TimesOfIndia</title>
+
+		<style type="text/css">
+			#topbar {
+				width: 100%;
+				margin: 0 auto;
+				height: 30px; 
+				background-color: #1A1A1A;
+			}
+			#topbar-1 {
+				width: 50%;
+				margin: 0 auto;
+				height: 20px; 
+				background-color: #1A1A1A;
+				position: relative;
+				left: 50px;
+				top: 1px;
+				float: left;
+			}
+			#topbar-2 {
+				width: 50%;
+				margin: 0 auto;
+				height: 20px; 
+				background-color: #1A1A1A;
+				position: relative;
+				top: 1px;
+				float: right;
+			}
+			body{
+				margin: 0;
+				padding: 0;
+				font-family: 'proximanova',sans-serif;
+			}
+			.topbar-section{
+				border-right: 1px solid grey;
+				height: 70%;
+				float: left;
+			}
+			#down-arrow{
+				width: 15px;
+				height: 15px;
+				margin-left: 25px;
+				float: left;
+			}
+			#english{
+				color: white;
+				position: relative;
+				left: 16px;
+				font-size: 85%;
+				font-weight: bold;
+				float: left;
+			}
+			.mainheads{
+				color: white;
+				position: relative;
+				left: 10px;
+				padding-right: 40px;
+				font-weight: bold;
+				font-size: 85%;
+				text-decoration: none;
+			}
+			#earn-points{
+				height: 85%;
+				float: left;
+
+			}
+			.photos{
+				width: 20px;
+				height: 20px;
+				position: relative;
+				top: 2px;
+				left: 5px;
+				right: 5px;
+				float: left;
+			}
+			.clear{
+				clear: both;
+			}
+			#second-bar{
+				width: 100%
+				height: 100px;
+				background-color: #000000;
+			}
+			#times-of-india-text{
+
+				height: 60px;
+				position: center;
+				text-align: center;
+				top: 5px;
+				font-family: 'proximanova',sans-serif;
+				text-decoration: bold;
+				color: #FFFFFF;
+				font-size: 45px;
+			}
+			#under-toi{
+				position: center;
+				text-align: center;
+				height: 40px;
+				text-align: center;
+				position: center;
+				top: 5px;
+			}
+			#ahmedabad{
+				text-align: center;
+				position: center;
+				top: 5px;
+				font-size: 'proximanova',sans-serif;
+				text-decoration: normal;
+				text-decoration: none;
+				color: white;
+				font-size: 20px;
+				float: left;
+			}
+			#sun{
+				text-align: center;
+				position: center;
+				width: 20px;
+				height: 20px;
+				float: left;
+			}
+			#temperature{
+				text-align: center;
+				position: center;
+				width: 40px;
+				height: 20px;
+				float: left;
+			}
+			#side-arrow{
+				text-align: center;
+				position: center;
+				width: 20px;
+				height: 20px;
+				float: left;
+			}
+			#red-bar{
+				width: 100%;
+				height: 70px;
+				background-color: #BE2819;
+			}
+			.navigation-bar{
+				color: white;
+				position: relative;
+				left: 5px;
+				top: 5px;
+				padding-right: 10px;
+				font-weight: bold;
+				font-size: 15px;
+				text-decoration: none;
+				float: left;
+			}
+			#red-bar-section{
+				border-right: 1px solid grey;
+				height: 70%;
+				float: left;
+			}
+			#home{
+				float: left;
+			}
+			#search{
+				float: right;
+			}
+			button{
+				background-color: #BE2819;
+				border: none;
+				color: black;
+				padding: 10px 25px;
+				text-align: center;
+				font-size: 15px;
+				margin: 4px 2px;
+				transition: 0.3s;
+			}
+			button:hover{
+				background-color: #635f55;
+				color: #BE2819;
+			}
+			#latest-news-section{
+				width: 100%;
+				height: 50px;
+			}
+			#latest-news{
+				width: 100%;
+				height: 50px;
+				font-size: 40px;
+				position: relative;
+				top: 5px;
+				font-weight: bolder;
+			}
+			#page-container{
+				width: 100%;
+				position: relative;
+				top: 50px;
+				left: 30px;
+			}
+			#left-side{
+				width: 70%;
+				float: left;
+			}
+			#verticle-line{
+				height: 100%; 
+				width: 1px; 
+				border-left: 1px solid gray;
+			}
+			#first-left{
+				width: 1000px;
+				height: 150px;
+				
+			}
+			#right-side{
+				width: 30%;
+				float: right;
+			}
+			#first-left-image{
+				width: 200px;
+				height: 150px;
+				float: left;
+			}
+			#first-left-heading{
+
+			}
+			#first-right-image{
+				width: 350px;
+				height: 350px;
+			}
+
+		</style>
+
+	</head>
+	<body>
+		<div>
+			<!-- First sections -->
+
+			<div id="topbar">
+				<div id="topbar-1">
+					<div class="topbar-section"><span id="english">English</span><img id="down-arrow" src="down-arrow.png"></div>
+					<div class="topbar-section"><a href=""><span  class="mainheads"> Epaper</span></a></div>
+					<div class="topbar-section"><a href=""><span  class="mainheads"> GadgetsNow</span></a></div>
+				</div>
+
+				<div id="topbar-2">
+					<div><img id="earn-points" src="earn-points.png" width="300px" height="30%"></div>
+					<div class="topbar-section"><a href=""><span class="mainheads"> Sign In</span></a></div>
+					<div><img class="photos" src="twitter.png"></div>
+					<div><img class="photos" src="facebook.png"></div>
+					<div><img class="photos" src="wi-fi.png"></div>
+					<div><img class="photos" src="you-tube.png"></div>
+				</div>
+			</div>
+
+			<div class="clear"></div>
+			<!-- Second section -->
+
+			<div id="second-bar">
+				<div id="times-of-india-text">
+					THE TIMES OF INDIA
+				</div>
+
+				<div id="under-toi">
+					<a href=""><span id="ahmedabad"> Ahmedabad</span></a>
+					<a href=""><img id="sun" src="sun.png"></a> 
+					<a href=""><img id="temperature" src="temperature.png"></a>
+					<a href=""><img id="side-arrow" src="side-arrow.png"></a>
+				</div>
+			</div>
+
+			<div class="clear"></div>
+
+			<div id="red-bar">
+				<div id="home"><button class="button"><img src="home.png"></button></div>
+				<div class="navigation-bar"><button class="button"><span class="navigation-bar"> Latest news</span></button></div>
+				<div class="navigation-bar"><button class="button"><span class="navigation-bar"> Most Shared</span></button></div>
+				<div class="navigation-bar"><button class="button"><span class="navigation-bar"> Most Read</span></button></div>
+				<div class="navigation-bar"><button class="button"><span class="navigation-bar"> Most Commented</span></button></div>
+				<div class="navigation-bar"><button class="button"><span class="navigation-bar"> Delhi Election</span></button></div>
+				<div class="navigation-bar"><button class="button"><span class="navigation-bar"> Bihar Election</span></button></div>
+				<div id="search"><button class="button"><img src="search.png"></button></div>
+			</div>
+
+			<div id="latest-news-section">
+				<div id="latest-news">LATEST NEWS <hr></div>
+			</div>
+		</div>
+
+		<div id="page-container">
+
+			<div id="left-side">
+				
+				<div id="first-left">
+					<div><img id="first-left-image" src="first-left-image.png"></div>
+					<div>
+						<h4 id="first-left-heading">'No Democracy Left': PC Chacko quits Cong ahead of Kerala polls</h4>
+						<p>Senior Congress leader PC Chacko on Wednesday resigned from the party ahead of Kerala assembly elections. Chacko is a former Member of Parliament from Thrissur Lok Sabha seat in Kerala.</p>
+					</div>
+				</div>
+
+				<hr>
+
+				<div id="first-left">
+					<div><img id="first-left-image" src="first-left-image.png"></div>
+					<div>
+						<h4 id="first-left-heading">'No Democracy Left': PC Chacko quits Cong ahead of Kerala polls</h4>
+						<p>Senior Congress leader PC Chacko on Wednesday resigned from the party ahead of Kerala assembly elections. Chacko is a former Member of Parliament from Thrissur Lok Sabha seat in Kerala.</p>
+					</div>
+				</div>
+
+				<hr>
+
+				<div id="first-left">
+					<div><img id="first-left-image" src="first-left-image.png"></div>
+					<div>
+						<h4 id="first-left-heading">'No Democracy Left': PC Chacko quits Cong ahead of Kerala polls</h4>
+						<p>Senior Congress leader PC Chacko on Wednesday resigned from the party ahead of Kerala assembly elections. Chacko is a former Member of Parliament from Thrissur Lok Sabha seat in Kerala.</p>
+					</div>
+				</div>
+
+				<hr>
+
+				<div id="first-left">
+					<div><img id="first-left-image" src="first-left-image.png"></div>
+					<div>
+						<h4 id="first-left-heading">'No Democracy Left': PC Chacko quits Cong ahead of Kerala polls</h4>
+						<p>Senior Congress leader PC Chacko on Wednesday resigned from the party ahead of Kerala assembly elections. Chacko is a former Member of Parliament from Thrissur Lok Sabha seat in Kerala.</p>
+					</div>
+				</div>
+
+			</div>
+
+			<div id="right-side">
+				<div>
+
+					<div><img id="first-right-image" src="first-right-image.png"></div>
+
+				</div>
+			</div>
+			
+		</div>
+
+	</body>
+</html>
